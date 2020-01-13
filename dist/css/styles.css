@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Bebas+Neue);
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.header-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  padding: 0;
+  margin: 10% 0 0;
+}
+
+.header {
+  align-self: center;
+  width: 40%;
+}
+
+.header-lockup {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-logo {
+  display: flex;
+}
+
+.header-logoImg {
+  max-height: 105px;
+  margin-top: 10px;
+  width: 100px;
+}
+
+.header-content {
+  flex-direction: column;
+  display: flex;
+}
+
+.header-content h1 {
+  color: #231F20;
+  font-size: 4.5rem;
+  line-height: 3.75rem;
+  margin: 20px 0 0;
+}
+
+.header-content h2 {
+  color: #B5E2EB;
+  font-size: 2.32rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin: 0;
+}
+
+.header-desc {
+  font-size: .9rem;
+  font-weight: 200;
+  line-height: 1.4rem;
+  margin-top: 0;
+}
+
+.header-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-socials i {
+  color: #B5E2EB;
+  font-size: 1.5rem;
+}
+
+.header-socials i:hover {
+  color: #F57C00;
+}
