@@ -78,12 +78,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-logo {
   display: flex;
+  visibility: hidden;
 }
 
 .intro-logoImg {
   max-height: 105px;
   margin-top: 10px;
-  width: 100px;
+  width: 0px;
 }
 
 .intro-content {
@@ -111,4 +112,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 200;
   line-height: 1.4rem;
   margin-top: 0;
+}
+
+@media only screen and (min-width: 1200px) {
+  .intro-logo {
+    visibility: visible;
+  }
+
+  .intro-logoImg {
+    width: 100px;
+  }
 }
